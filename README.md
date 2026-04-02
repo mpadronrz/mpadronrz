@@ -6,11 +6,27 @@ I am a Software Engineer and Award-Winning Mathematician (IMO Honourable Mention
 
 Alongside my academic research and Teaching Assistant duties, I am developing low-level systems architecture and modern AI integrations at **42Barcelona**. I specialize in writing memory-safe C, architecting Linux systems, and building type-safe, tested Python applications.
 
+---
+
 ### 🛠️ Tech Stack & Tools
 * **Languages:** Python, C, Bash, SQL
-* **Libraries:** NumPy, Pydantic, Pytest, Mypy
-* **Engineering Tools:** Git, Linux, Make, uv, LaTeX
+* **Frameworks & Libs:** FastAPI NumPy, Pydantic, Pytest, Mypy
+* **Engineering Tools:** Docker, Docker Compose, Git, Linux, Make, uv, LaTeX
 * **Core Focus:** Algorithm Optimization, Machine Learning Foundations, Discrete Mathematics
+
+---
+
+### 🚀 Featured Project: 42-Talent-App
+
+**[42-Talent-App](https://github.com/mpadronrz/42_talent) | Recruitment Automation Middleware**
+
+> *Currently in active development (MVP) and under technical review by 42 Barcelona’s Talent Department.*
+
+  * **The Mission:** Bridge the gap between the 42 Network and the Talent & Partnerships Department to automate alumni engagement and senior-tier recruitment.
+  * **Current Status:** Delivering a feature-complete MVP in 4 days. I am **currently iterating on staff feedback**, implementing advanced analytics and data-freshness workers to prepare for internal integration.
+  * **Architecture:** A **decoupled system** using FastAPI (Async) and SQLAlchemy (ORM) to isolate business logic from Slack and 42 Intra APIs.
+  * **Security:** Industrial-grade implementation featuring **HMAC-SHA256** signature verification and **OAuth2 + PKCE** flows.
+  * **Stack:** Python 3.12, FastAPI, Docker, uv, Pydantic.
 
 ---
 
@@ -20,8 +36,8 @@ At 42, learning is peer-to-peer and project-based. Projects are graded on a stri
 
 | Project | Description | Tech Stack | Score |
 | :--- | :--- | :--- | :--- |
-| **Pac-Man** | Architecting a modern Python implementation of the classic arcade game. Emphasizing clean software architecture, object-oriented design, and pipeline configuration for a fully deployable production build. | Python, Software Architecture | *[In Progress]* |
 | **NetPractice** | Solving advanced network administration and infrastructure challenges. Configuring and troubleshooting TCP/IP addressing, subnet masks, default gateways, and routing protocols across complex network topologies. | Networking, TCP/IP, SysAdmin | *[In Progress]* |
+| **[Pac-Man](https://github.com/mpadronrz/pac-man)** | Architecting a modern Python implementation of the classic arcade game. Emphasizing clean software architecture, object-oriented design, and pipeline configuration for a fully deployable production build. | Python, Software Architecture | ![Score Badge](https://img.shields.io/badge/Score-100%2F100-brightgreen) |
 | **[CallMeMaybe](https://github.com/mpadronrz/call-me-maybe)** | Built a system enabling LLM function calling by translating natural language into structured JSON outputs. Utilized constrained decoding and rigorous data validation to ensure reliable model execution. | Python, LLMs, Pydantic, UV | ![Score Badge](https://img.shields.io/badge/Score-100%2F100-brightgreen) |
 | **[Fly-in](https://github.com/mpadronrz/fly-in)** | Designed an optimized drone routing system handling simultaneous autonomous navigation. Implemented custom graph algorithms for concurrent pathfinding, deadlock prevention, and performance optimization. | Python, Graph Algorithms, OOP| ![Score Badge](https://img.shields.io/badge/Score-125%2F100-brightgreen) |
 | **[Codexion](https://github.com/mpadronrz/codexion)** | Engineered a highly concurrent C simulation to manage scarce shared resources. Implemented POSIX threads, mutexes, and scheduling algorithms (FIFO/EDF) to prevent deadlocks and race conditions. | C, POSIX Threads, Concurrency | ![Score Badge](https://img.shields.io/badge/Score-100%2F100-brightgreen) |
